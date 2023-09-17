@@ -45,7 +45,7 @@ const Body = () => {
           </motion.div>
         </div>
         <div className="hidden sm:inline border-2 border-violet-800 mx-10 md:my-7" />
-        <div className="fixed  text-xs bottom-0 left-11 my-auto sm:relative sm:text-base text-base m-auto flex space-x-1 mb-3">
+        <div className="fixed text-xs bottom-0 left-11 my-auto sm:relative sm:text-base text-base m-auto flex space-x-1 mb-3">
           <h1>Powered by </h1>
           <a
             href="https://metamask.io/"

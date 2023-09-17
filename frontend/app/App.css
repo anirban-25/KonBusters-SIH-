@@ -1,0 +1,33 @@
+/* components/FlippingPanel.css */
+
+.panel {
+  width: 600px;
+  height: 700px;
+  perspective: 1000px;
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front {
+  background-color: #3498db;
+  color: white;
+  transform: rotateY(0deg); /* Ensure the front face is visible initially */
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.is-flipped {
+  transform: rotateY(180deg);
+}

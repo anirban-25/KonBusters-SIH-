@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.9",
+    "@react-spring/parallax": "^9.6.1",
+    "react-loader-spinner": "^5.3.4",
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "10.4.14",
     "eslint-config-next": "13.0.3",
@@ -34,5 +39,17 @@
     "postcss": "^8.4.19",
     "styled-components": "^6.0.8",
     "three": "^0.156.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

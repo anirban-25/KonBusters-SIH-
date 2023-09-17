@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import bg from "../bg3.png";
 import { motion } from "framer-motion";
+import { FlagIcon } from "@heroicons/react/solid";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 const Body = () => {
   return (
@@ -28,7 +29,9 @@ const Body = () => {
               className="relative w-full md:-mt-[20px] -mt-[12px]"
             >
               <h3 className="text-violet-200 text-[10px] sm:text-[15px] md:text-[20px] max-w-lg pb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt enim maiores fuga numquam excepturi eum repellendus, quia cumque praesentium ex possimus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt enim maiores fuga numquam excepturi eum repellendus,
+                quia cumque praesentium ex possimus.
               </h3>
               <button className="shadow-inset shadow-violet-200 shadow-[2px_2px_10px_rgba(0,0,0,0.5)]   border-none border-2 mr-2 text-base text-gray-600  p-2 mt-2 font-semibold bg-violet-100  rounded-md hover:bg-violet-200  hover:text-gray-700 transition transform duration-200 ease-out">
                 Verify Now
@@ -41,6 +44,12 @@ const Body = () => {
             className=" ml-12 md:ml-44 relative w-full md:-mt-[20px] -mt-[12px] "
           >
             <div className="">
+              <div className="flex justify-between items-center">
+                <div className="pb-5 text-2xl">Hello, @_.anirban.__</div>
+                <div className="flex items-center">24
+                <FlagIcon className="text-red-500 h-7 w-7 "/>
+                </div>
+              </div>
               <Image
                 src={bg}
                 className=" mt-5 sm:mt-0 w-[350px] h-[250px] left-0 md:h-60 object-cover relative z-10 rounded-tl-2xl  shadow-violet-300 shadow-[0px_10px_30px_rgba(0,0,0,0.5)] "

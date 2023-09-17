@@ -1,9 +1,9 @@
 import Body from "@/components/Body";
-import Navbar from "@/components/Navbar";
+import Navbar_user from "@/components/Navbar_user";
 const Recruitment = () => {
   return (
     <div className="bg-black overflow-hidden">
-      <Navbar/>
+      <Navbar_user/>
       <Body/>
     </div>
   );

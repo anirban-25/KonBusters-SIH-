@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
 import { SearchIcon } from "@heroicons/react/solid";
 import Link from "next/link";
-function Navbar() {
+function Navbar_user() {
   const [UserName, setuserName] = useState();
   console.log(UserName);
   return (
@@ -38,7 +38,7 @@ function Navbar() {
                       className="text-secondary-white p-1 mr-2 rounded-md focus:outline-none bg-transparent valid:text-blue-200"
                       placeholder="Username"
                     />
-                    <a href={`/mainpage_org/${UserName}`}>
+                    <a href={`/mainpage/${UserName}`}>
                       <SearchIcon className="w-5 h-5 text-gray-400" />
                     </a>
                   </div>
@@ -52,4 +52,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar_user;
